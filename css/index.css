@@ -11,12 +11,24 @@ body {
     font-size: 30px;
 }
 
-::-webkit-scrollbar {
-    width: 25%;
+.scroll::-webkit-scrollbar {
+    height: 6px;
+}
+
+.scroll::-webkit-scrollbar-track {
+    background-color: #f5f1e5;
+    margin: 0px 300px;
+    border-radius: 3px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: #024d46;
+    border-radius: 3px;
 }
 
 .scroll {
     overflow-x: scroll;
+    margin: 10px 30px;
 }
 
 .menu-icon {
