@@ -11,13 +11,19 @@ body {
     font-size: 30px;
 }
 
+::-webkit-scrollbar {
+    width: 25%;
+}
+
+.scroll {
+    overflow-x: scroll;
+}
+
 .menu-icon {
     display: flex;
     align-items: center;
     flex-direction: row;
     margin: 20px;
-    overflow: hidden;
-    overflow-x: scroll;
 }
 
 .icon {
@@ -54,12 +60,9 @@ body {
 
 .menu-container {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: row;
     margin-bottom: 20px;
-    overflow-x: scroll;
-    padding-left: 300px;
 }
 
 .poster {
