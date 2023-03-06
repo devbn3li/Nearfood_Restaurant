@@ -1,0 +1,176 @@
+body {
+    background-color: #f0eada;
+}
+
+.menu-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.craving {
+    font-size: 30px;
+}
+
+.menu-icon {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 20px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.icon {
+    text-align: center;
+    border: 2px #024d46 solid;
+    width: auto;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+.icon:hover {
+    background-color: #024d46;
+    color: #ffffff;
+}
+
+.line::before {
+    content: "|";
+    color: #024d46;
+    font-size: 24px;
+    transform: translateX(-50%);
+    font-weight: bold;
+
+}
+
+.icon img {
+    width: 30px;
+    height: 25px;
+    margin: 1.5px 25px;
+    display: flex;
+}
+
+.icon p {
+    margin: 5px 30px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+}
+
+.scrollbar {
+    width: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    position: relative;
+    float: right;
+    height: 100%;
+}
+
+.thumb {
+    height: 50px;
+    background-color: #555;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+}
+
+.poster {
+    background-color: #024d46;
+    padding: 30px 10px;
+    width: 268px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.today {
+    font-size: 45px;
+    margin: 0;
+    text-align: center;
+    color: #eef985;
+}
+
+.poster-text {
+    color: white;
+    text-align: center;
+}
+
+.dish {
+    position: relative;
+    padding: 104px 1px;
+}
+
+.dish img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.dish1 {
+    position: absolute;
+    z-index: 3;
+    top: 0px;
+    right: -413px;
+    left: 37px;
+    transform: rotate3d(-25, 8, 5, 46deg);
+}
+
+.dish2 {
+    position: absolute;
+    z-index: 2;
+    left: 143px;
+    top: 104px;
+    right: -350px;
+    transform: rotate3d(13, -49, 2, -1deg);
+}
+
+.dish3 {
+    position: absolute;
+    z-index: 1;
+    right: -230px;
+    left: -56px;
+    top: 57px;
+    transform: rotate3d(45, -28, 1, 44deg);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 220px;
+    margin: 20px 5px;
+}
+
+.card img {
+    width: 122px;
+    border-radius: 10px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #01685e;
+}
+
+.plus {
+    margin: 50px 0px 0px 15px;
+}
+
+.plus img {
+    width: 30px;
+    height: 30px;
+    background-color: #024d46;
+    border-radius: 50%;
+}
