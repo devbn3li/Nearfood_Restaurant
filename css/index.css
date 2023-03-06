@@ -57,26 +57,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    flex-wrap: wrap;
     margin-bottom: 20px;
     overflow-x: scroll;
-}
-
-.scrollbar {
-    width: 10px;
-    background-color: #ddd;
-    border-radius: 5px;
-    position: relative;
-    float: right;
-    height: 100%;
-}
-
-.thumb {
-    height: 50px;
-    background-color: #555;
-    border-radius: 5px;
-    position: absolute;
-    top: 0;
+    padding-left: 300px;
 }
 
 .poster {
