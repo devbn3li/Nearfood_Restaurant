@@ -172,3 +172,12 @@ body {
     background-color: #024d46;
     border-radius: 50%;
 }
+
+.feed-text {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.user-img img {
+    width: 10%;
+}
