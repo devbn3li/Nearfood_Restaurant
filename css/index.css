@@ -31,6 +31,13 @@ body {
     margin: 10px 30px;
 }
 
+section {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .menu-icon {
     display: flex;
     align-items: center;
@@ -175,9 +182,96 @@ body {
 
 .feed-text {
     text-align: center;
-    margin-top: 80px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.feedbacks {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    margin-bottom: 25px;
+}
+
+.user {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.about {
+    width: 66%;
+    font-family: sans-serif;
+}
+
+.name {
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.user-img {
+    width: 85px;
 }
 
 .user-img img {
-    width: 10%;
+    width: 100%;
+    border-radius: 45px;
+}
+
+.online {
+    display: flex;
+    justify-content: center;
+}
+
+.online-imgs {
+    background-color: white;
+    border-radius: 30px;
+    position: relative;
+}
+
+.online img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.img1 {
+    position: absolute;
+    right: 20px;
+    z-index: 1;
+}
+
+.img2 {
+    position: absolute;
+    right: -20px;
+}
+
+.img3 {
+    position: absolute;
+    left: 10px;
+    z-index: 1;
+}
+
+.img4 {
+    position: absolute;
+    z-index: 3;
+    left: 50px;
+    border-radius: 50%;
+    background-color: #064d48;
+    width: 50px;
+    text-align: center;
+    color: white;
 }
