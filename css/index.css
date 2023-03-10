@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 20px 35px;
+    padding: 0px 50px;
 }
 
 .logo img {
@@ -58,6 +59,7 @@ body {
     font-size: large;
     font-weight: 600;
     font-family: sans-serif;
+    margin: 10px;
 }
 
 .item .yellow {
@@ -351,4 +353,34 @@ section {
     width: 50px;
     text-align: center;
     color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+    color: #ffffff;
+    background-color: #013d39;
+}
+
+.foot-up {
+    font-size: 30px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.foot-down {
+    width: 310px;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
