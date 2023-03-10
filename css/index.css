@@ -60,10 +60,17 @@ body {
     font-family: sans-serif;
 }
 
-.item img {
+.item .yellow {
     width: 110px;
     border-radius: 55px;
     background-color: #ffce47;
+    height: 110px;
+}
+
+.item .green {
+    width: 110px;
+    border-radius: 55px;
+    background-color: #013d39;
     height: 110px;
 }
 
@@ -87,7 +94,7 @@ body {
 }
 
 .scroll::-webkit-scrollbar-thumb {
-    background-color: #024d46;
+    background-color: #013d39;
     border-radius: 3px;
 }
 
@@ -112,19 +119,19 @@ section {
 
 .icon {
     text-align: center;
-    border: 2px #024d46 solid;
+    border: 2px #013d39 solid;
     width: auto;
     border-radius: 20px;
     margin: 0px 10px;
 }
 .icon:hover {
-    background-color: #024d46;
+    background-color: #013d39;
     color: #ffffff;
 }
 
 .line::before {
     content: "|";
-    color: #024d46;
+    color: #013d39;
     font-size: 24px;
     transform: translateX(-50%);
     font-weight: bold;
@@ -150,7 +157,7 @@ section {
 }
 
 .poster {
-    background-color: #024d46;
+    background-color: #013d39;
     padding: 30px 10px;
     width: 268px;
     border-radius: 10px;
@@ -231,7 +238,7 @@ section {
 .price {
     font-size: 20px;
     font-weight: bold;
-    color: #01685e;
+    color: #013d39;
 }
 
 .plus {
@@ -241,7 +248,7 @@ section {
 .plus img {
     width: 30px;
     height: 30px;
-    background-color: #024d46;
+    background-color: #013d39;
     border-radius: 50%;
 }
 
@@ -340,7 +347,7 @@ section {
     z-index: 3;
     left: 50px;
     border-radius: 50%;
-    background-color: #064d48;
+    background-color: #013d39;
     width: 50px;
     text-align: center;
     color: white;
