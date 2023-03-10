@@ -47,6 +47,26 @@ body {
     padding: 10px 245px;
 }
 
+.services-items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item {
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.item img {
+    width: 110px;
+    border-radius: 55px;
+    background-color: #ffce47;
+    height: 110px;
+}
+
 .menu-text {
     text-align: center;
     font-weight: bold;
