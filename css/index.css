@@ -50,12 +50,12 @@ body {
 .left-add {
     width: 45%;
     border-radius: 15px;
-    background-color: #054f48;
-    height: 400px;
+    background-color: rgb(5, 79, 72);
+    height: 450px;
     text-align: center;
     position: relative;
-    margin: 10px 50px;
-    color: #ffcb45;
+    margin: 10px 30px;
+    color: rgb(255, 203, 69);
 }
 
 .burger {
@@ -76,7 +76,7 @@ body {
     font-size: 35px;
     margin: 0;
     position: absolute;
-    transform: translate(120px, 45px);
+    transform: translate(120px, 70px);
     font-weight: 600;
 }
 
@@ -106,18 +106,19 @@ body {
     position: absolute;
     font-size: 70px;
     font-weight: bold;
-    transform: translate(40px, 15px);
+    transform: translate(40px, 60px);
     text-shadow: 4px 4px 1px rgb(0 0 0 / 60%);
 }
 
 .right-add {
     width: 45%;
+    margin: 10px 25px;
 }
 
 .top-add {
     width: 100%;
     background-color: #ffcb45;
-    height: 50%;
+    height: 48%;
     position: relative;
     border-radius: 15px;
 }
@@ -126,7 +127,7 @@ body {
     font-size: 15px;
     font-weight: bold;
     position: absolute;
-    transform: translate(228px, -9px);
+    transform: translate(228px, -18px);
     margin: 0;
     z-index: 1;
     background-color: #054f48;
@@ -145,19 +146,35 @@ body {
     margin: 0;
     color: #054f48;
     text-shadow: 1px 1px white;
+    z-index: 1;
+    position: inherit;
 }
 
 .fish {
     width: 150px;
     position: absolute;
-    transform: translate(224px, -196px);
+    transform: translate(225px, -190px);
 }
 
 .evil {
     width: 130px;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    transform: translate(358px, -205px);
+}
+
+.bottom-add {
+    width: 100%;
+    background-color: #a41c1c;
+    height: 48%;
+    position: relative;
+    border-radius: 15px;
+}
+
+.delev {
+    width: 270px;
+    position: absolute;
+    transform: translate(-20px, -157px);
+    z-index: 1;
 }
 
 .service-text {
