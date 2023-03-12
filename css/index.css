@@ -137,6 +137,7 @@ body {
     transform: translate(40px, 15px);
     margin: 0;
     color: #054f48;
+    text-shadow: 1px 1px white;
 }
 
 .fish {
