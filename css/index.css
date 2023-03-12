@@ -168,13 +168,50 @@ body {
     height: 48%;
     position: relative;
     border-radius: 15px;
+    margin-top: 15px;
+
 }
 
 .delev {
     width: 270px;
     position: absolute;
-    transform: translate(-20px, -157px);
+    transform: translate(-20px, -54px);
     z-index: 1;
+}
+
+.customer {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    transform: translate(165px, 3px);
+    z-index: 2;
+    font-weight: bold;
+}
+
+.free {
+    position: absolute;
+    font-size: 60px;
+    width: 100px;
+    transform: translate(164px, -30px);
+    font-weight: bold;
+    z-index: 2;
+    color: #ffcb45;
+    text-shadow: 3px 3px #054f48;
+}
+
+.promo {
+    color: #054f48;
+    background-color: #ffcb45;
+    width: 265px;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(163px, 160px);
+    text-align: center;
+    z-index: 2;
+    font-family: 'roboto', sans-serif;
+    padding: 5px 0px;
+    line-height: 1;
+    font-weight: bold;
 }
 
 .service-text {
