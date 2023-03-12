@@ -143,8 +143,7 @@ body {
 .fish {
     width: 150px;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    transform: translate(224px, -196px);
 }
 
 .evil {
