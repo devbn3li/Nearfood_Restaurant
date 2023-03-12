@@ -43,6 +43,69 @@ body {
     color: #000000
 }
 
+.left-add {
+    width: 45%;
+    border-radius: 15px;
+    background-color: #054f48;
+    height: 400px;
+    text-align: center;
+    position: relative;
+    margin: 10px 50px;
+    color: #ffcb45;
+}
+
+.burger {
+    width: 400px;
+}
+
+.visa {
+    width: 131px;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.friday {
+    font-family: 'roboto', sans-serif;
+    font-size: 35px;
+    margin: 0;
+    position: absolute;
+    transform: translate(120px, 45px);
+    font-weight: 600;
+}
+
+.burger {
+    width: 480px;
+    position: absolute;
+    left: -10px;
+    bottom: -25px;
+}
+
+.off {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #054f48;
+    background-color: #ffcb45;
+    width: 180px;
+    height: 90px;
+    border-radius: 180px / 90px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    margin: 0;
+    line-height: 2.5;
+}
+
+.tasty {
+    position: absolute;
+    font-size: 70px;
+    font-weight: bold;
+    transform: translate(40px, 15px);
+    text-shadow: 4px 4px 1px rgb(0 0 0 / 60%);
+}
+
 .service-text {
     text-align: center;
     font-family: sans-serif;
