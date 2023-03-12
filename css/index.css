@@ -78,17 +78,17 @@ body {
 }
 
 .item .yellow {
-    width: 110px;
-    border-radius: 55px;
+    width: 150px;
+    border-radius: 75px;
     background-color: #ffce47;
-    height: 110px;
+    height: 150px;
 }
 
 .item .green {
-    width: 110px;
-    border-radius: 55px;
+    width: 150px;
+    border-radius: 75px;
     background-color: #054f48;
-    height: 110px;
+    height: 150px;
 }
 
 .menu-text {
@@ -368,6 +368,7 @@ section {
     width: 50px;
     text-align: center;
     color: white;
+    font-weight: bold;
 }
 
 .map {
