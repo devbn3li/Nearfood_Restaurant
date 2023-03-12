@@ -122,6 +122,36 @@ body {
     border-radius: 15px;
 }
 
+.indonesia {
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    transform: translate(205px, 13px);
+    margin: 0;
+}
+
+.land {
+    font-size: 39px;
+    font-weight: bold;
+    width: 50%;
+    transform: translate(40px, 15px);
+    margin: 0;
+}
+
+.fish {
+    width: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.evil {
+    width: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
 .service-text {
     text-align: center;
     font-family: sans-serif;
