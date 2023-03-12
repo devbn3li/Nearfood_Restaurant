@@ -126,8 +126,15 @@ body {
     font-size: 15px;
     font-weight: bold;
     position: absolute;
-    transform: translate(205px, 13px);
+    transform: translate(228px, -9px);
     margin: 0;
+    z-index: 1;
+    background-color: #054f48;
+    color: #ffcb45;
+    border-radius: 15px;
+    width: 260px;
+    text-align: center;
+    padding: 5px 0px;
 }
 
 .land {
@@ -147,7 +154,7 @@ body {
 }
 
 .evil {
-    width: 150px;
+    width: 130px;
     position: absolute;
     right: 0;
     bottom: 0;
