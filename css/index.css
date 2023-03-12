@@ -43,6 +43,10 @@ body {
     color: #000000
 }
 
+.adds {
+    display: flex;
+}
+
 .left-add {
     width: 45%;
     border-radius: 15px;
@@ -104,6 +108,18 @@ body {
     font-weight: bold;
     transform: translate(40px, 15px);
     text-shadow: 4px 4px 1px rgb(0 0 0 / 60%);
+}
+
+.right-add {
+    width: 45%;
+}
+
+.top-add {
+    width: 100%;
+    background-color: #ffcb45;
+    height: 50%;
+    position: relative;
+    border-radius: 15px;
 }
 
 .service-text {
