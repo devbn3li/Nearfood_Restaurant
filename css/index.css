@@ -57,6 +57,19 @@ body {
     width: 100px;
 }
 
+.number {
+    font-size: 60px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #054f48;
+    margin: 0;
+}
+
+.hunger {
+    width: 80%;
+    font-family: 'Roboto';
+}
+
 .adds {
     display: flex;
 }
