@@ -54,7 +54,7 @@ body {
 }
 
 .home img {
-    width: 100px;
+    width: 25px;
 }
 
 .number {
@@ -68,6 +68,27 @@ body {
 .hunger {
     width: 80%;
     font-family: 'Roboto';
+}
+
+.home-btn {
+    display: flex;
+    align-items: center;
+}
+
+.order {
+    background-color: #054f48;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-family: 'Roboto';
+    color: white;
+}
+
+.play-icon {
+    width: 15px;
+    padding: 15px 15px;
+    border: 1px #054f48 solid;
+    border-radius: 30px;
+    margin: 0px 15px;
 }
 
 .adds {
