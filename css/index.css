@@ -84,9 +84,8 @@ body {
 }
 
 .play-icon {
-    width: 15px;
-    padding: 15px 15px;
-    border: 1px #054f48 solid;
+    padding: 10px;
+    border: 2px #054f48 solid;
     border-radius: 30px;
     margin: 0px 15px;
 }
