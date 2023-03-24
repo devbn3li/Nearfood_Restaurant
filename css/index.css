@@ -54,10 +54,6 @@ body {
     padding-left: 60px;
 }
 
-.home img {
-    width: 25px;
-}
-
 .number {
     font-size: 60px;
     font-family: 'Roboto';
@@ -89,6 +85,50 @@ body {
     border: 2px #054f48 solid;
     border-radius: 30px;
     margin: 0px 15px;
+    width: 25px;
+}
+
+.chif {
+    position: relative;
+}
+
+.chef-text {
+    font-family: 'Roboto';
+}
+
+.chef-name {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 45px 0px 0px 0px;
+}
+
+.recommend {
+    width: 75%;
+}
+
+.chef-job {
+    font-size: 15px;
+    color: #6b6b6b;
+    font-weight: bold;
+}
+
+.sign {
+    width: 150px;
+    position: absolute;
+    right: 130px;
+    bottom: -40px;
+    z-index: -1;
+}
+
+.chef-img {
+    width: 150px;
+    background-color: #ffcb45;
+    border-radius: 75px;
+    height: 150px;
+    position: absolute;
+    z-index: -3;
+    right: 35px;
+    bottom: -15px;
 }
 
 .adds {
@@ -539,7 +579,7 @@ section {
 
 .jop {
     font-size: 15px;
-    color: #928f90;
+    color: #6b6b6b;
     font-weight: bold;
 }
 
