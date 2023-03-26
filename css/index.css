@@ -131,6 +131,17 @@ body {
     bottom: -15px;
 }
 
+.right {
+    width: 47%;
+}
+
+.right-text {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
 .adds {
     display: flex;
 }
