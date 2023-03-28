@@ -140,6 +140,12 @@ body {
     font-size: 30px;
     font-weight: bold;
     margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rows {
+    display: flex;
 }
 
 .adds {
