@@ -163,10 +163,6 @@ body {
     color: rgb(255, 203, 69);
 }
 
-.burger {
-    width: 400px;
-}
-
 .visa {
     width: 131px;
     right: 0;
@@ -186,7 +182,7 @@ body {
 }
 
 .burger {
-    width: 480px;
+    width: 100%;
     position: absolute;
     left: -10px;
     bottom: -25px;
