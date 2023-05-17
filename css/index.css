@@ -72,12 +72,24 @@ body {
     align-items: center;
 }
 
+.how-order {
+    font-family: 'Roboto';
+}
 .order {
     background-color: #054f48;
-    padding: 15px 30px;
+    padding: 14px 26px;
     border-radius: 25px;
     font-family: 'Roboto';
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.order p {
+    margin: 0px 10px 0px 0px;
 }
 
 .play-icon {
