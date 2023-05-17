@@ -34,7 +34,7 @@ body {
 }
 
 .nav-item {
-    margin: 10px;
+    margin: 10px 17px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -59,7 +59,8 @@ body {
     font-family: 'Roboto';
     font-weight: bold;
     color: #054f48;
-    margin: 0;
+    margin: 75px 0 0 0;
+    line-height: 1.4;
 }
 
 .hunger {
@@ -111,7 +112,7 @@ body {
 .chef-name {
     font-weight: bold;
     font-size: 30px;
-    margin: 45px 0px 0px 0px;
+    margin: 55px 0px 0px 0px;
 }
 
 .recommend {
@@ -145,19 +146,71 @@ body {
 
 .right {
     width: 47%;
+    background-color: #ffcb45;
+    border-radius: 25px;
+    position: relative;
 }
 
-.right-text {
+.right-text-top {
     font-family: 'Roboto';
     font-size: 30px;
     font-weight: bold;
-    margin: 0;
+    margin: 0px 20px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.right-text-top .text {
+    z-index: 1;
+}
+
+.small-circle {
+    display: flex;
+    position: absolute;
+    left: 18px;
+    top: 8px;
+    z-index: 0;
+}
+
+.ball {
+    width: 30px;
+    height: 30px;
+    background-color: #ffdd86;
+    border-radius: 15px;
+    margin: 18px 7px;
+}
+.today-choice {
+    color: #054f48;
+    font-size: 20px;
+    margin: 45px 0px 10px 0px;
+}
+
+.american {
+    margin: 0;
+    width: 75%;
+    color: #054f48;
 }
 
 .rows {
     display: flex;
+    color: #054f48;
+    width: 22%;
+    justify-content: space-around;
+}
+.left-row {
+    padding: 14px 14px 10px 14px;
+    border: #054f48 2px solid;
+    border-radius: 27px;
+    font-size: 50%;
+    margin: 0px 5px;
+}
+.right-row {
+    padding: 14px 14px 10px 14px;
+    border: #054f48 2px solid;
+    border-radius: 27px;
+    font-size: 50%;
+    margin: 0px 5px;
 }
 
 .adds {
