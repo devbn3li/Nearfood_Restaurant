@@ -246,7 +246,7 @@ body {
     height: 400px;
     
 }
-.dish_container .dish_1 img {
+.dish_1 img {
     width: 90%;
     position: absolute;
     right: 8px;
@@ -258,7 +258,14 @@ body {
     width: 50%;
     position: absolute;
     top: 109px;
-    left: 310px;
+    right: -30px;
+}
+
+.dish_container .dish_3 img {
+    width: 50%;
+    position: absolute;
+    top: 100px;
+    left: -60px;
 }
 .rows {
     display: flex;
@@ -425,28 +432,31 @@ body {
 .delev {
     width: 270px;
     position: absolute;
-    transform: translate(-20px, -54px);
     z-index: 1;
+    bottom: 0;
 }
 
 .customer {
+    top: 3px;
     color: white;
     font-size: 15px;
-    position: absolute;
-    transform: translate(165px, 3px);
+    position: inherit;
     z-index: 2;
     font-weight: bold;
+    left: 220px;
 }
 
 .free {
-    position: absolute;
+    position: inherit;
     font-size: 60px;
-    width: 100px;
-    transform: translate(164px, -30px);
+    width: 350px;
     font-weight: bold;
     z-index: 2;
     color: #ffcb45;
+    left: 215px;
     text-shadow: 3px 3px #054f48;
+    bottom: 20px;
+    margin: 0;
 }
 
 .promo {
@@ -455,13 +465,14 @@ body {
     width: 265px;
     border-radius: 10px;
     position: absolute;
-    transform: translate(163px, 160px);
     text-align: center;
     z-index: 2;
     font-family: 'roboto', sans-serif;
     padding: 5px 0px;
     line-height: 1;
     font-weight: bold;
+    left: 215px;
+    bottom: 10px;
 }
 
 @media (max-width: 768px) {
