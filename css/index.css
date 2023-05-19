@@ -2,6 +2,7 @@
 
 body {
     background-color: #f0eada;
+    overflow-x: hidden;
 }
 
 .container {
@@ -10,7 +11,7 @@ body {
     margin: 20px 35px;
     padding: 0px 50px;
 }
-/* small screan  */
+/* small screan 
 @media (min-width: 768px) {
     .container {
         width: 750px;
@@ -27,7 +28,7 @@ body {
     .container {
         width: 1170px;
     }
-}
+} */
 
 
 .logo {
@@ -238,22 +239,26 @@ body {
     font-weight: bolder;
 }
 
-.dish_1 img {
+
+.dish_container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    
+}
+.dish_container .dish_1 img {
     width: 90%;
     position: absolute;
-    right: 15px;
-    top: 186px;
+    right: 8px;
     transform: rotateX(360deg);
     z-index: 3;
 }
 
-.dish_2 img {
-    width: 70%;
+.dish_container .dish_2 img {
+    width: 50%;
     position: absolute;
-    top: 352px;
-    left: 262px;
-    overflow: hidden;
-    transform: scaleY(1.2);
+    top: 109px;
+    left: 310px;
 }
 .rows {
     display: flex;
@@ -305,16 +310,16 @@ body {
     font-family: 'roboto', sans-serif;
     font-size: 35px;
     margin: 0;
-    position: absolute;
-    transform: translate(120px, 70px);
+    position: inherit;
     font-weight: 600;
+    top: 35px;
+    text-align: center;
 }
 
 .burger {
     width: 100%;
-    position: absolute;
-    left: -10px;
-    bottom: -25px;
+    position: inherit;
+    bottom: 100px;
 }
 
 .off {
@@ -333,10 +338,9 @@ body {
 }
 
 .tasty {
-    position: absolute;
+    position: inherit;
     font-size: 70px;
     font-weight: bold;
-    transform: translate(40px, 60px);
     text-shadow: 4px 4px 1px rgb(0 0 0 / 60%);
 }
 
@@ -346,14 +350,18 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    height: 448px;
 }
 
+.add-container-1 {
+    position: relative;
+    background-color: #ffcb45;
+    border-radius: 15px;
+}
 .top-add {
     width: 100%;
-    background-color: #ffcb45;
-    height: 48%;
-    position: relative;
-    border-radius: 15px;
+    height: 215px;
+    position: inherit;
 }
 
 .indonesia {
@@ -376,34 +384,42 @@ body {
     font-size: 39px;
     font-weight: bold;
     width: 50%;
-    transform: translate(40px, 15px);
     margin: 0;
     color: #054f48;
     text-shadow: 1px 1px white;
     z-index: 1;
     position: inherit;
+    left: 40px;
+    top: 20px;
 }
 
 .fish {
     width: 150px;
     position: absolute;
-    transform: translate(225px, -190px);
+    right: 120px;
+    bottom: 0;
 }
 
 .evil {
     width: 130px;
     position: absolute;
-    transform: translate(358px, -205px);
+    right: 10px;
+    top: -26px;
+}
+
+.add-container-2 {
+    position: relative;
+    background-color: #a41c1c;
+    border-radius: 15px;
+    margin-top: 15px;
 }
 
 .bottom-add {
     width: 100%;
     background-color: #a41c1c;
-    height: 48%;
-    position: relative;
+    height: 215px;
+    position: inherit;
     border-radius: 15px;
-    margin-top: 15px;
-
 }
 
 .delev {
@@ -446,6 +462,16 @@ body {
     padding: 5px 0px;
     line-height: 1;
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .left-add, .right-add {
+        flex: 1 1 100%;
+    }
+
+    .left-add {
+        margin: 10px 0;
+    }
 }
 
 .service-text {
